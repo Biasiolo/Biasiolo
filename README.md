@@ -27,7 +27,7 @@ Aqui estão algumas das minhas habilidades:
 - Identificação de Padrões ![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)
 
 ## Projetos
-[![Repositórios](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=Biasiolo&show_icons=true&theme=radical)](https://github.com/Biasiolo)
+[![Repositórios](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=agenda-contatos&show_icons=true&theme=radical)](https://github.com/Biasiolo/agenda-contatos)
 
 ## Contato
 - Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/rafael-biasiolo/) 
