@@ -8,7 +8,7 @@ Bem-vindo ao meu perfil do GitHub. Eu sou um desenvolvedor apaixonado por tecnol
 - 🚀 Estou interessado em projetos web inovadores e tecnologias emergentes.
 
 ## Estatísticas
-![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=radical)
+![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=radical&count_private=true)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo)](https://github.com/anuraghazra/github-readme-stats)
 
 ## Habilidades
