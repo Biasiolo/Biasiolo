@@ -17,14 +17,13 @@ Aqui estão algumas das minhas habilidades:
 ![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=black)
 ![CSS](https://img.shields.io/badge/CSS-007ec6?style=for-the-badge&logo=css3&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
-![UI/UX](https://img.shields.io/badge/UI/UX-9cf?style=for-the-badge&logo=adobe&logoColor=black)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-98cf?style=for-the-badge&logo=openai&logoColor=black)
 ![Canva](https://img.shields.io/badge/Canva-ff7ec6?style=for-the-badge&logo=canva&logoColor=black)
 
-- Design ![Design](https://img.shields.io/badge/Design-Advanced-blue)
-- Front-end ![Front-end](https://img.shields.io/badge/Front--end-Advanced-brightgreen)
+- Design ![Design](https://img.shields.io/badge/Design-Advanced-green)
+- UI/UX ![UI/UX](https://img.shields.io/badge/UI/UX-Advanced-green)
+- Front-end ![Front-end](https://img.shields.io/badge/Front--end-Advanced-green)
 - Senso Estético ![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)
-- ChatGPT ![ChatGPT](https://img.shields.io/badge/ChatGPT-Advanced-blue)
 - Identificação de Padrões ![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)
 
 ## Projetos
