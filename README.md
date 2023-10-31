@@ -28,8 +28,6 @@ Aqui estão algumas das minhas habilidades:
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Biasiolo)
 
-## Projetos
-
 [![Galeria de Fotos](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=Galeria_Fotos&show_icons=true&theme=radical)](https://github.com/Biasiolo/Galeria_Fotos)
 [![Agenda de Contatos](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=agenda-contatos&show_icons=true&theme=radical)](https://github.com/Biasiolo/agenda-contatos)
 
