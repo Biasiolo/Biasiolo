@@ -26,6 +26,8 @@ Aqui estão algumas das minhas habilidades:
 - Senso Estético ![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)
 - Identificação de Padrões ![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)
 
+![Profile Views](https://komarev.com/ghpvc/?username=Biasiolo)
+
 ## Projetos
 
 [![Galeria de Fotos](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=Galeria_Fotos&show_icons=true&theme=radical)](https://github.com/Biasiolo/Galeria_Fotos)
