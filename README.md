@@ -28,7 +28,7 @@ Aqui estão algumas das minhas habilidades:
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Biasiolo)
 
-[![Galeria de Fotos](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=Galeria_Fotos&show_icons=true&theme=radical)](https://github.com/Biasiolo/Galeria_Fotos)
+[![jquery-toggle-switch-plugin](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=jquery-toggle-switch-plugin&show_icons=true&theme=radical)](https://github.com/Biasiolo/jquery-toggle-switch-plugin)
 [![Checklist Generator](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=Checklist_Generator&show_icons=true&theme=radical)](https://github.com/Biasiolo/Checklist_Generator)
 
 ## Contato
