@@ -14,9 +14,14 @@ Bem-vindo ao meu perfil do GitHub. Eu sou um desenvolvedor apaixonado por tecnol
 ## Habilidades
 Aqui estão algumas das minhas habilidades:
 
-![HTML](https://img.shields.io/badge/HTML-orange?style=for-the-badge&logo=html5&logoColor=black)
-![CSS](https://img.shields.io/badge/CSS-007ec6?style=for-the-badge&logo=css3&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/>HTML</code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/>CSS</code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/>JAVASCRIPT</code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/>NODE.JS</code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React"/>REACT</code>
+
+
+
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-98cf?style=for-the-badge&logo=openai&logoColor=black)
 ![Canva](https://img.shields.io/badge/Canva-ff7ec6?style=for-the-badge&logo=canva&logoColor=black)
 
