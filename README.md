@@ -33,7 +33,7 @@ Aqui estão algumas das minhas habilidades:
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Biasiolo)
 
-[![Screen-Color-Plugin](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=jquery-toggle-switch-plugin&show_icons=true&theme=radical)](https://github.com/Biasiolo/Screen-Color-Button)
+[![Screen-Color-Plugin](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=screen-color-button&show_icons=true&theme=radical)](https://github.com/Biasiolo/Screen-Color-Button)
 [![Checklist Generator](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=Checklist_Generator&show_icons=true&theme=radical)](https://github.com/Biasiolo/Checklist_Generator)
 
 ## Contato
