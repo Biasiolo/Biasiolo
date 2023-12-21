@@ -9,7 +9,7 @@ Bem-vindo ao meu perfil do GitHub. Eu sou um desenvolvedor apaixonado por tecnol
 
 ## Estatísticas
 ![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=radical&count_private=true)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo)](https://github.com/Biasiolo?tab=repositories)
 
 ## Habilidades
 Aqui estão algumas das minhas habilidades:
