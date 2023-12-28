@@ -1,6 +1,6 @@
 # Olá! Eu sou Biasiolo!
 
-Bem-vindo ao meu perfil do GitHub. Eu sou um desenvolvedor apaixonado por tecnologia, com um ano de experiência em programação. Abaixo estão algumas informações sobre mim:
+Bem-vindo ao meu perfil do GitHub. 
 
 ## Sobre Mim
 - 💻 Tenho experiência em desenvolvimento web com HTML, CSS e JavaScript.
