@@ -8,8 +8,13 @@ Bem-vindo ao meu perfil do GitHub.
 - 🚀 Estou interessado em projetos web inovadores e tecnologias emergentes.
 
 ## Estatísticas
+<span align="center">
+
 ![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=radical&count_private=true)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo)](https://github.com/Biasiolo?tab=repositories)
+
+<span align="left">
 
 ## Habilidades
 Aqui estão algumas das minhas habilidades:
@@ -31,10 +36,14 @@ Aqui estão algumas das minhas habilidades:
 - Senso Estético ![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)
 - Identificação de Padrões ![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)
 
+<span align="center">
+
 ![Profile Views](https://komarev.com/ghpvc/?username=Biasiolo)
 
 [![Screen-Color-Plugin](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=to-do-gen&show_icons=true&theme=radical)](https://github.com/Biasiolo/to-do-gen)
 [![Gooey Menu](https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=gooey-interactive-menu&show_icons=true&theme=radical)](https://github.com/Biasiolo/gooey-interactive-menu)
+
+<span align="left">
 
 ## Contato
 - Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/rafael-biasiolo/) 
