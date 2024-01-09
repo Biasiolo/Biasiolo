@@ -12,8 +12,6 @@ Bem-vindo ao meu perfil do GitHub.
 
 ![Estatísticas do GitHub](https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=radical&count_private=true)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo)](https://github.com/Biasiolo?tab=repositories)
-
 <span align="left">
 
 ## Habilidades
@@ -35,6 +33,13 @@ Aqui estão algumas das minhas habilidades:
 - Front-end ![Front-end](https://img.shields.io/badge/Front--end-Advanced-green)
 - Senso Estético ![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)
 - Identificação de Padrões ![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)
+
+</br>
+</br>
+<span align="center">
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo)](https://github.com/Biasiolo?tab=repositories)
+
 
 <span align="center">
 
