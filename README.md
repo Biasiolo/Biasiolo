@@ -75,6 +75,8 @@
 <h2 align="center">Contato</h2>
 
 <p align="center">
-  Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/rafael-biasiolo/)<br>
+  
+  Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/rafael-biasiolo/) <br>
   Meu e-mail: biasiolorafael@gmail.com
+
 </p>
