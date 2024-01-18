@@ -2,7 +2,7 @@
   <img src="https://media.licdn.com/dms/image/D4D16AQH336Rm38qt-Q/profile-displaybackgroundimage-shrink_350_1400/0/1698844704430?e=1710374400&v=beta&t=2BIN7uUnjBuCRhtu-P6Im_rOnACG7xvfL5ZGPMNlK2U" alt="Fundo do Perfil">
 </p>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=verdana&pause=1000&color=1978A1&size=40&center=true&vCenter=true&width=1000&lines=Hello!+I'm+Biasiolo!;Front-end+Developer!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=verdana&pause=1000&color=0000cd&size=40&center=true&vCenter=true&width=1000&lines=Hello!+I'm+Biasiolo!;Front-end+Developer!)](https://git.io/typing-svg)
 
 <br>
 
