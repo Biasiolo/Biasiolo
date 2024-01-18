@@ -12,11 +12,20 @@
 
 <p align="center">Tenho experiência em HTML, CSS e Javascript, e trago a habilidade de transformar conceitos criativos em interfaces elegantes e funcionais.</p>
 
+<h2 align="center">Skills</h2>
+
+<div align="center">
+
+![Skills](https://skillicons.dev/icons?i=html,css,js,jquery,react,nodejs,vscode,git,github,bootstrap,figma&perline=12)
+<br>
+
+</div>
+
 <h3 align="center">O que eu faço:</h3>
 
 <p align="center">
   <b>Desenvolvimento Web:</b> Experiência em criar websites, componentes e aplicações web responsivas e intuitivas.<br>
-  <b>Design UX/UI:</b> Paixão por criar interfaces atraentes que proporcionam uma experiência do usuário excepcional.<br>
+  <b>Design UX/UI:</b> Crio interfaces atraentes que proporcionam uma experiência do usuário excepcional.<br>
   <b>Documentação:</b> Habilidade em criar documentações claras e concisas para projetos, garantindo uma compreensão abrangente.<br>
   <b>Histórias de Usuários:</b> Foco na elaboração de histórias de usuários para garantir que os produtos atendam às necessidades reais dos usuários.
 </p>
@@ -31,24 +40,11 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=radical&count_private=true" alt="Estatísticas do GitHub">
 </p>
 
-<h2 align="center">Habilidades</h2>
-
-<p align="center">
-  Aqui estão algumas das minhas habilidades:
-</p>
-
-<p align="center">
-  <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/>HTML</code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/>CSS</code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/>JAVASCRIPT</code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/>NODE.JS</code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="React"/>REACT</code>
-
-<br>
 </br>
 
-![ChatGPT](https://img.shields.io/badge/ChatGPT-98cf?style=for-the-badge&logo=openai&logoColor=black)
-![Canva](https://img.shields.io/badge/Canva-ff7ec6?style=for-the-badge&logo=canva&logoColor=black)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo" alt="Top Langs">
+</p>
 
 - Design ![Design](https://img.shields.io/badge/Design-Advanced-green)
 - UI/UX ![UI/UX](https://img.shields.io/badge/UI/UX-Advanced-green)
@@ -56,10 +52,6 @@
 - Senso Estético ![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)
 - Identificação de Padrões ![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)
 </br>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo" alt="Top Langs">
-</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Biasiolo" alt="Profile Views">
@@ -76,9 +68,9 @@
 
 <h2 align="center">Contato</h2>
 
-<p align="center">
+<div align="center">
   
-  Você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/rafael-biasiolo/) <br>
-  Meu e-mail: biasiolorafael@gmail.com
+[![Gmail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=1978A1)](mailto:biasiolorafael@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-%23333?style=for-the-badge&logo=linkedin&logoColor=1978A1)](https://www.linkedin.com/in/rafael-biasiolo/)
 
-</p>
+</div>
