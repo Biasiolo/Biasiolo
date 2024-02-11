@@ -16,7 +16,7 @@
 
 <div align="center">
 
-![Skills](https://skillicons.dev/icons?i=html,css,js,sass,jquery,react,nodejs,vscode,git,github,bootstrap,figma&perline=12)
+![Skills](https://skillicons.dev/icons?i=html,css,js,sass,gulp,jquery,react,nodejs,vscode,git,bootstrap,figma&perline=12)
 <br>
 
 </div>
