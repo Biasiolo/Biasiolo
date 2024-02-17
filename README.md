@@ -12,6 +12,12 @@
 
 <p align="center">Tenho experiência em HTML, CSS e Javascript, e trago a habilidade de transformar conceitos criativos em interfaces elegantes e funcionais.</p>
 
+<p align="center">
+ <a href="https://profile-rafael-biasiolo.vercel.app" target="_blank"><img src="https://img.shields.io/badge/-Portfólio-575fcf?&logo=github&logoColor=white&style=for-the-badge"></a>
+</p>
+
+
+
 <h2 align="center">Skills</h2>
 
 <div align="center">
