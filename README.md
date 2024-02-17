@@ -43,13 +43,13 @@
 <h2 align="center">Estatísticas</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=radical&count_private=true" alt="Estatísticas do GitHub">
+  <img src="https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=transparent&count_private=true" alt="Estatísticas do GitHub">
 </p>
 
 </br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo" alt="Top Langs">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo&theme=transparent" alt="Top Langs">
 </p>
 
 - Design ![Design](https://img.shields.io/badge/Design-Advanced-green)
@@ -65,10 +65,10 @@
 
 <p align="center">
   <a href="https://github.com/Biasiolo/to-do-gen">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=to-do-gen&show_icons=true&theme=radical" alt="Screen-Color-Plugin">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=to-do-gen&show_icons=true&theme=transparent" alt="Screen-Color-Plugin">
   </a>
   <a href="https://github.com/Biasiolo/gooey-interactive-menu">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=gooey-interactive-menu&show_icons=true&theme=radical" alt="Gooey Menu">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=gooey-interactive-menu&show_icons=true&theme=transparent" alt="Gooey Menu">
   </a>
 </p>
 
