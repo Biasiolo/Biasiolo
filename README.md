@@ -40,7 +40,8 @@
   Acredito que a combinação de código eficiente e design intuitivo pode transformar a maneira como as pessoas interagem com a tecnologia. Estou sempre buscando aprender e aplicar as últimas tendências e melhores práticas para criar experiências digitais incríveis.
 </p>
 
-<h2 align="center">Estatísticas</h2>
+<h2 align="center"></h2>
+</br>
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=transparent&count_private=true" alt="Estatísticas do GitHub">
