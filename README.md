@@ -77,7 +77,7 @@
 
 <div align="center">
   
-[![Gmail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=1978A1)](mailto:biasiolorafael@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-%23333?style=for-the-badge&logo=linkedin&logoColor=1978A1)](https://www.linkedin.com/in/rafael-biasiolo/)
+[![Gmail](https://img.shields.io/badge/-Gmail-%575fcf?style=for-the-badge&logo=gmail&logoColor=575fcf)](mailto:biasiolorafael@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-%575fcf?style=for-the-badge&logo=linkedin&logoColor=575fcf)](https://www.linkedin.com/in/rafael-biasiolo/)
 
 </div>
