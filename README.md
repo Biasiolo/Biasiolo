@@ -68,7 +68,7 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=surrealismo&show_icons=true&theme=transparent" alt="Surrealismo">
   </a>
   <a href="https://github.com/Biasiolo/a-clockwork-orange-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=a-clockwork-orange-project&show_icons=true&theme=transparent" alt="Clockwork Orange">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=a-clockwork-orange-project&show_icons=true&theme=transparent" alt="A Clockwork Orange">
   </a>
 </p>
 
