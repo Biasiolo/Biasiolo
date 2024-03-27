@@ -65,10 +65,10 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
 
 <p align="center">
   <a href="https://github.com/Biasiolo/to-do-gen">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=to-do-gen&show_icons=true&theme=transparent" alt="Screen-Color-Plugin">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=surrealismo&show_icons=true&theme=transparent" alt="Surrealismo">
   </a>
   <a href="https://github.com/Biasiolo/gooey-interactive-menu">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=gooey-interactive-menu&show_icons=true&theme=transparent" alt="Gooey Menu">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=a-clockwork-orange-project&show_icons=true&theme=transparent" alt="Clockwork Orange">
   </a>
 </p>
 
