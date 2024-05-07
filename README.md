@@ -1,4 +1,5 @@
-![42](https://github.com/Biasiolo/Biasiolo/assets/146396015/d9cc12bc-5648-4f2e-b4ec-e9a3c2ac8cf8)
+![43](https://github.com/Biasiolo/Biasiolo/assets/146396015/6a2a23d4-4bf7-474f-93a6-d69d83716f4e)
+
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=verdana&pause=1000&color=ffff&size=40&center=true&vCenter=true&width=1000&lines=Olá!+Eu+sou+Biasiolo!;Front-end+Developer!)](https://git.io/typing-svg)
 
