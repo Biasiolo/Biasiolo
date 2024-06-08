@@ -36,9 +36,9 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
   <b>Histórias de Usuários:</b> Foco na elaboração de histórias de usuários para garantir que os produtos atendam às necessidades reais dos usuários.
 </p>
 
-<p align="center">
+<div align="center">
   Acredito que a combinação de código eficiente e design intuitivo pode transformar a maneira como as pessoas interagem com a tecnologia. Estou sempre buscando aprender e aplicar as últimas tendências e melhores práticas para criar experiências digitais incríveis.
-</p>
+</div>
 
 <h2 align="center"></h2>
 </br>
@@ -53,12 +53,17 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo&theme=transparent" alt="Top Langs">
 </p>
 
+<div align="center">
+ 
 ![Design](https://img.shields.io/badge/Design-Advanced-green)<br>
 ![UI/UX](https://img.shields.io/badge/UI/UX-Advanced-green)<br>
 ![Front-end](https://img.shields.io/badge/Front--end-Advanced-green)<br>
+![SEO](https://img.shields.io/badge/SEO-Advanced-green)<br>
 ![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)<br>
 ![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)<br>
 </br>
+
+</div>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Biasiolo" alt="Profile Views">
