@@ -53,11 +53,11 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo&theme=transparent" alt="Top Langs">
 </p>
 
-![Design](https://img.shields.io/badge/Design-Advanced-green)
-![UI/UX](https://img.shields.io/badge/UI/UX-Advanced-green)
-![Front-end](https://img.shields.io/badge/Front--end-Advanced-green)
-![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)
-![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)
+![Design](https://img.shields.io/badge/Design-Advanced-green)<br>
+![UI/UX](https://img.shields.io/badge/UI/UX-Advanced-green)<br>
+![Front-end](https://img.shields.io/badge/Front--end-Advanced-green)<br>
+![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)<br>
+![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)<br>
 </br>
 
 <p align="center">
