@@ -41,13 +41,13 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
 </br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=transparent&count_private=true" alt="Estatísticas do GitHub">
+  <img src="https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=dark&count_private=true" alt="Estatísticas do GitHub">
 </p>
 
 </br>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo&theme=transparent" alt="Top Langs">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo&theme=dark" alt="Top Langs">
 </p>
 
 <div align="center">
@@ -68,10 +68,10 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
 
 <p align="center">
   <a href="https://github.com/Biasiolo/surrealismo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=surrealismo&show_icons=true&theme=transparent" alt="Surrealismo">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=surrealismo&show_icons=true&theme=dark" alt="Surrealismo">
   </a>
   <a href="https://github.com/Biasiolo/a-clockwork-orange-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=a-clockwork-orange-project&show_icons=true&theme=transparent" alt="A Clockwork Orange">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=a-clockwork-orange-project&show_icons=true&theme=dark" alt="A Clockwork Orange">
   </a>
 </p>
 
