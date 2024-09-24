@@ -1,6 +1,3 @@
-![43](https://github.com/Biasiolo/Biasiolo/assets/146396015/6a2a23d4-4bf7-474f-93a6-d69d83716f4e)
-
-
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=verdana&pause=1000&color=ffff&size=40&center=true&vCenter=true&width=1000&lines=Olá!+Eu+sou+Biasiolo!;Front-end+Developer!)](https://git.io/typing-svg)
 
 <br>
@@ -16,7 +13,7 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
  <a href="https://portfolio-rafael-biasiolo.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/-Portfólio-575fcf?&logo=github&logoColor=white&style=for-the-badge"></a>
 </p>
 
-
+![43](https://github.com/Biasiolo/Biasiolo/assets/146396015/6a2a23d4-4bf7-474f-93a6-d69d83716f4e)
 
 <h2 align="center">Skills</h2>
 
