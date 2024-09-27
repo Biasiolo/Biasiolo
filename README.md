@@ -68,10 +68,10 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
 
 <p align="center">
   <a href="https://github.com/Biasiolo/new-snake-game">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=new-snake-game&show_icons=true&theme=transparent" alt="new-snake-game">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=new-snake-game&show_icons=true&theme=dark" alt="new-snake-game">
   </a>
   <a href="https://github.com/Biasiolo/dev-tips">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=dev-tips&show_icons=true&theme=transparent" alt="dev-tips">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=dev-tips&show_icons=true&theme=dark" alt="dev-tips">
   </a>
 </p>
 
