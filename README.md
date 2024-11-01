@@ -1,20 +1,19 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=verdana&pause=1000&color=ffff&size=40&center=true&vCenter=true&width=1000&lines=Olá!+Eu+sou+Biasiolo!;Front-end+Developer!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=verdana&pause=1000&color=ffff&size=40&center=true&vCenter=true&width=1000&lines=Hello!+I+am+Biasiolo!;Front-end+Developer!)](https://git.io/typing-svg)
 
 <br>
 
-<p align="center">Bem-vindo ao meu perfil do GitHub.</p>
+<p align="center">Welcome to my GitHub profile.</p>
 
-<h2 align="center">Sobre Mim</h2>
+<h2 align="center">About Me</h2>
 
-<p align="center">💻 Tenho experiência em desenvolvimento web com HTML, CSS e JavaScript.
-Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.</p>
+<p align="center">💻 I have experience in web development.
+I transform creative concepts into elegant, functional, and intuitive interfaces.</p>
 
 <p align="center">
- <a href="https://portfolio-rafael-biasiolo.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/-Portfólio-575fcf?&logo=github&logoColor=white&style=for-the-badge"></a>
+ <a href="https://portfolio-rafael-biasiolo.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-575fcf?&logo=github&logoColor=white&style=for-the-badge"></a>
 </p>
 
 ![51](https://github.com/user-attachments/assets/e531aeac-f64b-4840-aebc-dd67f761dd13)
-
 
 <h2 align="center">Skills</h2>
 
@@ -25,17 +24,17 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
 
 </div>
 
-<h3 align="center">O que eu faço:</h3>
+<h3 align="center">What I Do:</h3>
 
 <p align="center">
-  <b>Desenvolvimento Web:</b> Experiência em criar websites, componentes e aplicações web responsivas e intuitivas.<br>
-  <b>Design UX/UI:</b> Crio interfaces atraentes que proporcionam uma experiência do usuário excepcional.<br>
-  <b>Documentação:</b> Habilidade em criar documentações claras e concisas para projetos, garantindo uma compreensão abrangente.<br>
-  <b>Histórias de Usuários:</b> Foco na elaboração de histórias de usuários para garantir que os produtos atendam às necessidades reais dos usuários.
+  <b>Web Development:</b> Experienced in creating websites, components, and responsive and intuitive web applications.<br>
+  <b>UX/UI Design:</b> I design appealing interfaces that provide an exceptional user experience.<br>
+  <b>Documentation:</b> Skilled in creating clear and concise project documentation to ensure comprehensive understanding.<br>
+  <b>User Stories:</b> Focused on crafting user stories to ensure that products meet real user needs.
 </p>
 
 <div align="center">
-  Acredito que a combinação de código eficiente e design intuitivo pode transformar a maneira como as pessoas interagem com a tecnologia. Estou sempre buscando aprender e aplicar as últimas tendências e melhores práticas para criar experiências digitais incríveis.
+  I believe that combining efficient code and intuitive design can transform the way people interact with technology. I am always eager to learn and apply the latest trends and best practices to create outstanding digital experiences.
 </div>
 
 <h2 align="center"></h2>
@@ -73,13 +72,13 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
 ![UI/UX](https://img.shields.io/badge/UI/UX-Advanced-green)<br>
 ![Front-end](https://img.shields.io/badge/Front--end-Advanced-green)<br>
 ![SEO](https://img.shields.io/badge/SEO-Advanced-green)<br>
-![Senso Estético](https://img.shields.io/badge/Senso%20Est%C3%A9tico-High-orange)<br>
-![Identificação de Padrões](https://img.shields.io/badge/Identifica%C3%A7%C3%A3o%20de%20Padr%C3%B5es-Proficient-yellow)<br>
+![Aesthetic Sense](https://img.shields.io/badge/Aesthetic%20Sense-High-orange)<br>
+![Pattern Recognition](https://img.shields.io/badge/Pattern%20Recognition-Proficient-yellow)<br>
 </br>
 
 </div>
 
-<h2 align="center">Contato</h2>
+<h2 align="center">Contact</h2>
 
 <div align="center">
   
