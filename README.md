@@ -13,7 +13,8 @@ Transformo conceitos criativos em interfaces elegantes, funcionais e intuitivas.
  <a href="https://portfolio-rafael-biasiolo.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/-Portfólio-575fcf?&logo=github&logoColor=white&style=for-the-badge"></a>
 </p>
 
-![43](https://github.com/Biasiolo/Biasiolo/assets/146396015/6a2a23d4-4bf7-474f-93a6-d69d83716f4e)
+![51](https://github.com/user-attachments/assets/e531aeac-f64b-4840-aebc-dd67f761dd13)
+
 
 <h2 align="center">Skills</h2>
 
