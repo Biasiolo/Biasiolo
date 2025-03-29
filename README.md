@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=verdana&pause=1000&color=ffff&size=40&center=true&vCenter=true&width=1000&lines=Hello!+I+am+Biasiolo!;Front-end+Developer!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=verdana&pause=1000&color=ffff&size=40&center=true&vCenter=true&width=1000&lines=Hello!+I+am+Biasiolo!;Web+Developer!)](https://git.io/typing-svg)
 
 <br>
 
@@ -6,8 +6,7 @@
 
 <h2 align="center">About Me</h2>
 
-<p align="center">💻 I have experience in web development.
-I transform creative concepts into elegant, functional, and intuitive interfaces.</p>
+<p align="center">I have experience in web development, transforming creative concepts into elegant, functional and intuitive applications.</p>
 
 <p align="center">
  <a href="https://portfolio-rafael-biasiolo.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/-Portfolio-575fcf?&logo=github&logoColor=white&style=for-the-badge"></a>
@@ -19,7 +18,7 @@ I transform creative concepts into elegant, functional, and intuitive interfaces
 
 <div align="center">
 
-![Skills](https://skillicons.dev/icons?i=html,css,js,sass,gulp,jquery,react,nodejs,vscode,git,bootstrap,figma&perline=12)
+![Skills](https://skillicons.dev/icons?i=html,css,js,typescript,jquery,react,next,nodejs,tailwind,git,bootstrap,figma&perline=14)
 <br>
 
 </div>
@@ -27,10 +26,7 @@ I transform creative concepts into elegant, functional, and intuitive interfaces
 <h3 align="center">What I Do:</h3>
 
 <p align="center">
-  <b>Web Development:</b> Experienced in creating websites, components, and responsive and intuitive web applications.<br>
-  <b>UX/UI Design:</b> I design appealing interfaces that provide an exceptional user experience.<br>
-  <b>Documentation:</b> Skilled in creating clear and concise project documentation to ensure comprehensive understanding.<br>
-  <b>User Stories:</b> Focused on crafting user stories to ensure that products meet real user needs.
+ As a Developer, I turn ideas into digital solutions — from streamlined landing pages to dynamic web applications. I go beyond coding: I understand the product lifecycle, ensuring every project integrates intuitive design, usability, and marketing strategies from the ground up. A concrete example? I built and launched platforms like ShoppToolz (https://shopptoolz.com) and BrainDex (https://braindex.fun), where I blended technical expertise, creative design, and business acumen.
 </p>
 
 <div align="center">
@@ -58,8 +54,8 @@ I transform creative concepts into elegant, functional, and intuitive interfaces
 </p>
 
 <p align="center">
-  <a href="https://github.com/Biasiolo/new-snake-game">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=new-snake-game&show_icons=true&theme=dark" alt="new-snake-game">
+  <a href="https://github.com/Biasiolo/chatbot">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=chatbot&show_icons=true&theme=dark" alt="YooChat!">
   </a>
   <a href="https://github.com/Biasiolo/dev-tips">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=dev-tips&show_icons=true&theme=dark" alt="dev-tips">
