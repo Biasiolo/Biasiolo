@@ -181,7 +181,7 @@ Products I built and launched through development, design, and business thinking
       <h3>BRAINDEX</h3>
       <p>
         A product taken from concept to launch through web development,
-        interface design, and attention to the user experience.
+        interface design, and attention to the UX.
       </p>
       <p>
         <code>DEVELOPMENT</code>
