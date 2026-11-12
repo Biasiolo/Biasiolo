@@ -1,4 +1,4 @@
-name: Update profile metrics
+name: Cyberpunk profile metrics
 
 on:
   schedule:
@@ -13,51 +13,223 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  metrics:
+  render:
+    name: Render ${{ matrix.panel }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
+    strategy:
+      fail-fast: false
+
+      # Publish one card at a time to avoid competing commits.
+      max-parallel: 1
+
+      matrix:
+        include:
+          - panel: ACCOUNT OVERVIEW
+            filename: metrics-stats.svg
+            base: header, activity, repositories
+            languages: "no"
+            calendar: "no"
+            activity: "no"
+
+          - panel: LANGUAGE DISTRIBUTION
+            filename: metrics-languages.svg
+            base: ""
+            languages: "yes"
+            calendar: "no"
+            activity: "no"
+
+          - panel: CONTRIBUTION SIGNAL
+            filename: metrics-activity.svg
+            base: ""
+            languages: "no"
+            calendar: "yes"
+            activity: "yes"
+
     steps:
-      - name: Generate GitHub statistics
+      - name: Generate and publish SVG
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          user: Biasiolo
-          filename: metrics-stats.svg
-          template: classic
-          base: header, activity, community, repositories
-          config_timezone: America/Sao_Paulo
 
-      - name: Generate most used languages
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Biasiolo
-          filename: metrics-languages.svg
-          template: classic
-          base: ""
-          config_timezone: America/Sao_Paulo
+          # Use the workflow token to publish the generated files.
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: ${{ github.event.repository.default_branch }}
 
-          plugin_languages: yes
+          user: Biasiolo
+          template: classic
+          filename: ${{ matrix.filename }}
+          base: ${{ matrix.base }}
+
+          config_timezone: America/Sao_Paulo
+          config_animations: "no"
+          config_order: base, languages, isocalendar, activity
+
+          # ───────────── LANGUAGE DISTRIBUTION ─────────────
+
+          plugin_languages: ${{ matrix.languages }}
           plugin_languages_limit: 8
-          plugin_languages_details: percentage
           plugin_languages_sections: most-used
-          plugin_languages_indepth: no
+          plugin_languages_details: percentage
+          plugin_languages_indepth: "no"
 
-      - name: Generate contribution calendar and recent activity
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: Biasiolo
-          filename: metrics-activity.svg
-          template: classic
-          base: ""
-          config_timezone: America/Sao_Paulo
+          plugin_languages_colors: >-
+            javascript:#FDE047,
+            typescript:#22D3EE,
+            html:#FB7185,
+            css:#C084FC,
+            scss:#F472B6,
+            python:#34D399,
+            shell:#A3E635,
+            vue:#2DD4BF,
+            default:#818CF8
 
-          plugin_isocalendar: yes
+          # ───────────── CONTRIBUTION SIGNAL ─────────────
+
+          plugin_isocalendar: ${{ matrix.calendar }}
           plugin_isocalendar_duration: full-year
 
-          plugin_activity: yes
-          plugin_activity_limit: 8
+          plugin_activity: ${{ matrix.activity }}
+          plugin_activity_limit: 6
           plugin_activity_days: 30
           plugin_activity_filter: all
+
+          # ───────────── SHARED CYBERPUNK THEME ─────────────
+
+          extras_css: |
+            /* Base typography and foreground */
+            svg {
+              font-family:
+                "SFMono-Regular",
+                Consolas,
+                "Liberation Mono",
+                monospace;
+              color: #cbd5e1;
+            }
+
+            /* Card surface: grid, ambient light, dark base */
+            .items-wrapper {
+              box-sizing: border-box;
+              padding: 10px;
+              overflow: hidden;
+
+              background:
+                linear-gradient(
+                  rgba(34, 211, 238, 0.035) 1px,
+                  transparent 1px
+                ),
+                linear-gradient(
+                  90deg,
+                  rgba(34, 211, 238, 0.035) 1px,
+                  transparent 1px
+                ),
+                radial-gradient(
+                  ellipse at top right,
+                  rgba(124, 58, 237, 0.18),
+                  transparent 65%
+                ),
+                #080b14;
+
+              background-size:
+                24px 24px,
+                24px 24px,
+                100% 100%,
+                100% 100%;
+
+              border: 1px solid #334568;
+              border-top: 2px solid #22d3ee;
+              border-radius: 12px;
+
+              box-shadow:
+                inset 0 0 24px rgba(124, 58, 237, 0.08);
+            }
+
+            /* Panel identifier */
+            .items-wrapper::before {
+              content: "BIASIOLO // ${{ matrix.panel }}";
+              display: block;
+
+              margin: 0 0 12px;
+              padding: 8px 2px 12px;
+
+              border-bottom: 1px solid #25304b;
+
+              color: #a78bfa;
+              font-size: 10px;
+              font-weight: 700;
+              letter-spacing: 1.3px;
+            }
+
+            /* Headings */
+            h1,
+            h2,
+            h3 {
+              color: #22d3ee;
+              font-family: inherit;
+              font-weight: 600;
+            }
+
+            h1 {
+              color: #f1f5f9;
+              text-shadow: 0 0 12px rgba(34, 211, 238, 0.18);
+            }
+
+            h2 {
+              margin-top: 14px;
+            }
+
+            /* Links and emphasis */
+            a {
+              color: #c084fc;
+            }
+
+            strong,
+            b {
+              color: #f8fafc;
+            }
+
+            /* Data rows */
+            .field {
+              color: #cbd5e1;
+              line-height: 1.65;
+            }
+
+            .field svg {
+              fill: #22d3ee;
+            }
+
+            .field.error {
+              color: #fb7185;
+            }
+
+            .field.error svg {
+              fill: #fb7185;
+            }
+
+            .field.warning {
+              color: #fde047;
+            }
+
+            .field.warning svg {
+              fill: #fde047;
+            }
+
+            /* Profile accent */
+            .avatar {
+              border: 1px solid #a78bfa;
+              box-shadow: 0 0 10px rgba(167, 139, 250, 0.2);
+            }
+
+            /* Supporting text */
+            small,
+            .h-details,
+            footer {
+              color: #94a3b8;
+            }
+
+            footer {
+              border-top: 1px solid #25304b;
+              margin-top: 12px;
+              padding-top: 10px;
+            }
