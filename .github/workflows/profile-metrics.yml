@@ -16,44 +16,37 @@ jobs:
   render:
     name: Render ${{ matrix.panel }}
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
 
     strategy:
       fail-fast: false
-
-      # Publish one card at a time to avoid competing commits.
       max-parallel: 1
 
       matrix:
         include:
           - panel: ACCOUNT OVERVIEW
+            kind: stats
             filename: metrics-stats.svg
             base: header, activity, repositories
-            languages: "no"
-            calendar: "no"
-            activity: "no"
 
           - panel: LANGUAGE DISTRIBUTION
+            kind: languages
             filename: metrics-languages.svg
             base: ""
-            languages: "yes"
-            calendar: "no"
-            activity: "no"
 
           - panel: CONTRIBUTION SIGNAL
+            kind: activity
             filename: metrics-activity.svg
             base: ""
-            languages: "no"
-            calendar: "yes"
-            activity: "yes"
 
     steps:
-      - name: Generate and publish SVG
+      # ───────────── STATISTICS & ACTIVITY ─────────────
+
+      - name: Generate statistics or activity
+        if: matrix.kind != 'languages'
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # Use the workflow token to publish the generated files.
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_branch: ${{ github.event.repository.default_branch }}
 
@@ -64,51 +57,25 @@ jobs:
 
           config_timezone: America/Sao_Paulo
           config_animations: "no"
-          config_order: base, languages, isocalendar, activity
+          config_order: base, isocalendar, activity
 
-          # ───────────── LANGUAGE DISTRIBUTION ─────────────
-
-          plugin_languages: ${{ matrix.languages }}
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-          plugin_languages_indepth: "no"
-
-          plugin_languages_colors: >-
-            javascript:#FDE047,
-            typescript:#22D3EE,
-            html:#FB7185,
-            css:#C084FC,
-            scss:#F472B6,
-            python:#34D399,
-            shell:#A3E635,
-            vue:#2DD4BF,
-            default:#818CF8
-
-          # ───────────── CONTRIBUTION SIGNAL ─────────────
-
-          plugin_isocalendar: ${{ matrix.calendar }}
+          plugin_isocalendar: ${{ matrix.kind == 'activity' }}
           plugin_isocalendar_duration: full-year
 
-          plugin_activity: ${{ matrix.activity }}
+          plugin_activity: ${{ matrix.kind == 'activity' }}
           plugin_activity_limit: 6
           plugin_activity_days: 30
           plugin_activity_filter: all
 
-          # ───────────── SHARED CYBERPUNK THEME ─────────────
-
           extras_css: |
-            /* Base typography and foreground */
             svg {
               font-family:
-                "SFMono-Regular",
                 Consolas,
                 "Liberation Mono",
                 monospace;
               color: #cbd5e1;
             }
 
-            /* Card surface: grid, ambient light, dark base */
             .items-wrapper {
               box-sizing: border-box;
               padding: 10px;
@@ -140,28 +107,20 @@ jobs:
               border: 1px solid #334568;
               border-top: 2px solid #22d3ee;
               border-radius: 12px;
-
-              box-shadow:
-                inset 0 0 24px rgba(124, 58, 237, 0.08);
             }
 
-            /* Panel identifier */
             .items-wrapper::before {
               content: "BIASIOLO // ${{ matrix.panel }}";
               display: block;
-
-              margin: 0 0 12px;
+              margin-bottom: 12px;
               padding: 8px 2px 12px;
-
               border-bottom: 1px solid #25304b;
-
               color: #a78bfa;
               font-size: 10px;
               font-weight: 700;
               letter-spacing: 1.3px;
             }
 
-            /* Headings */
             h1,
             h2,
             h3 {
@@ -172,14 +131,12 @@ jobs:
 
             h1 {
               color: #f1f5f9;
-              text-shadow: 0 0 12px rgba(34, 211, 238, 0.18);
             }
 
             h2 {
               margin-top: 14px;
             }
 
-            /* Links and emphasis */
             a {
               color: #c084fc;
             }
@@ -189,7 +146,6 @@ jobs:
               color: #f8fafc;
             }
 
-            /* Data rows */
             .field {
               color: #cbd5e1;
               line-height: 1.65;
@@ -215,13 +171,10 @@ jobs:
               fill: #fde047;
             }
 
-            /* Profile accent */
             .avatar {
               border: 1px solid #a78bfa;
-              box-shadow: 0 0 10px rgba(167, 139, 250, 0.2);
             }
 
-            /* Supporting text */
             small,
             .h-details,
             footer {
@@ -233,3 +186,311 @@ jobs:
               margin-top: 12px;
               padding-top: 10px;
             }
+
+      # ───────────── LANGUAGES / DIRECT GITHUB API ─────────────
+
+      - name: Checkout profile repository
+        if: matrix.kind == 'languages'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Collect languages and generate cyberpunk SVG
+        if: matrix.kind == 'languages'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          retries: 3
+
+          script: |
+            const fs = require("node:fs/promises");
+            const username = "Biasiolo";
+
+            // Fetch every public repository owned by this user.
+            const allRepos = await github.paginate(
+              github.rest.repos.listForUser,
+              {
+                username,
+                type: "owner",
+                per_page: 100,
+                sort: "full_name"
+              }
+            );
+
+            // Include archived repositories; exclude forks and empty repos.
+            const repos = allRepos.filter(repo =>
+              !repo.fork &&
+              !repo.private &&
+              repo.size > 0
+            );
+
+            const totals = new Map();
+
+            for (const repo of repos) {
+              const { data } = await github.rest.repos.listLanguages({
+                owner: repo.owner.login,
+                repo: repo.name
+              });
+
+              for (const [language, bytes] of Object.entries(data)) {
+                totals.set(
+                  language,
+                  (totals.get(language) || 0) + bytes
+                );
+              }
+            }
+
+            const sorted = [...totals.entries()]
+              .sort((a, b) => b[1] - a[1]);
+
+            const totalBytes = sorted.reduce(
+              (sum, [, bytes]) => sum + bytes,
+              0
+            );
+
+            // Fail instead of publishing a misleading empty card.
+            if (!totalBytes) {
+              throw new Error(
+                "No language data returned. Previous SVG was preserved."
+              );
+            }
+
+            // Show up to eight rows, grouping remaining languages.
+            let rows = sorted;
+
+            if (sorted.length > 8) {
+              rows = [
+                ...sorted.slice(0, 7),
+                [
+                  "Other",
+                  sorted.slice(7).reduce(
+                    (sum, [, bytes]) => sum + bytes,
+                    0
+                  )
+                ]
+              ];
+            }
+
+            const colors = {
+              JavaScript: "#fde047",
+              TypeScript: "#22d3ee",
+              HTML: "#fb7185",
+              CSS: "#c084fc",
+              SCSS: "#f472b6",
+              Sass: "#f472b6",
+              Python: "#34d399",
+              Shell: "#a3e635",
+              Vue: "#2dd4bf",
+              PHP: "#a5b4fc",
+              Java: "#fb923c",
+              Go: "#67e8f9",
+              Ruby: "#f87171",
+              Other: "#64748b"
+            };
+
+            const escape = value => String(value)
+              .replace(/&/g, "&amp;")
+              .replace(/</g, "&lt;")
+              .replace(/>/g, "&gt;")
+              .replace(/"/g, "&quot;")
+              .replace(/'/g, "&apos;");
+
+            const width = 680;
+            const height = 206 + rows.length * 40;
+            const barWidth = width - 48;
+            let offset = 24;
+
+            const segments = rows.map(([language, bytes]) => {
+              const segmentWidth = bytes / totalBytes * barWidth;
+              const color = colors[language] || "#818cf8";
+
+              const segment = `
+                <rect
+                  x="${offset.toFixed(3)}"
+                  y="114"
+                  width="${segmentWidth.toFixed(3)}"
+                  height="10"
+                  fill="${color}"
+                />
+              `;
+
+              offset += segmentWidth;
+              return segment;
+            }).join("");
+
+            const languageRows = rows.map(
+              ([language, bytes], index) => {
+                const y = 162 + index * 40;
+                const percent = (bytes / totalBytes * 100).toFixed(1);
+                const color = colors[language] || "#818cf8";
+
+                return `
+                  <circle cx="30" cy="${y - 5}" r="4" fill="${color}" />
+
+                  <text x="46" y="${y}" fill="#e2e8f0" font-size="15">
+                    ${escape(language)}
+                  </text>
+
+                  <text
+                    x="656"
+                    y="${y}"
+                    fill="${color}"
+                    font-size="15"
+                    text-anchor="end"
+                  >${percent}%</text>
+
+                  <line
+                    x1="24"
+                    y1="${y + 13}"
+                    x2="656"
+                    y2="${y + 13}"
+                    stroke="#1e293b"
+                  />
+                `;
+              }
+            ).join("");
+
+            const updated = new Date().toISOString().slice(0, 10);
+
+            const svg = `
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="${width}"
+              height="${height}"
+              viewBox="0 0 ${width} ${height}"
+              role="img"
+              aria-labelledby="title description"
+            >
+              <title id="title">Biasiolo — Language distribution</title>
+              <desc id="description">
+                Public repository languages, weighted by code bytes.
+              </desc>
+
+              <defs>
+                <pattern
+                  id="grid"
+                  width="24"
+                  height="24"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <path
+                    d="M 24 0 L 0 0 0 24"
+                    fill="none"
+                    stroke="#22d3ee"
+                    stroke-opacity="0.055"
+                  />
+                </pattern>
+
+                <radialGradient id="ambient" cx="100%" cy="0%" r="90%">
+                  <stop offset="0%" stop-color="#7c3aed" stop-opacity=".24" />
+                  <stop offset="100%" stop-color="#080b14" stop-opacity="0" />
+                </radialGradient>
+
+                <clipPath id="card">
+                  <rect
+                    x="1"
+                    y="1"
+                    width="${width - 2}"
+                    height="${height - 2}"
+                    rx="12"
+                  />
+                </clipPath>
+
+                <clipPath id="bar">
+                  <rect x="24" y="114" width="${barWidth}" height="10" rx="5" />
+                </clipPath>
+              </defs>
+
+              <g clip-path="url(#card)">
+                <rect width="100%" height="100%" fill="#080b14" />
+                <rect width="100%" height="100%" fill="url(#grid)" />
+                <rect width="100%" height="100%" fill="url(#ambient)" />
+
+                <rect width="100%" height="3" fill="#22d3ee" />
+
+                <g font-family="Consolas, Liberation Mono, monospace">
+                  <text
+                    x="24"
+                    y="34"
+                    fill="#a78bfa"
+                    font-size="11"
+                    letter-spacing="1.2"
+                  >BIASIOLO // LANGUAGE DISTRIBUTION</text>
+
+                  <line
+                    x1="24"
+                    y1="50"
+                    x2="656"
+                    y2="50"
+                    stroke="#25304b"
+                  />
+
+                  <text
+                    x="24"
+                    y="88"
+                    fill="#f1f5f9"
+                    font-size="22"
+                    font-weight="700"
+                  >The code behind the builds.</text>
+
+                  <g clip-path="url(#bar)">
+                    ${segments}
+                  </g>
+
+                  ${languageRows}
+
+                  <text
+                    x="24"
+                    y="${height - 41}"
+                    fill="#94a3b8"
+                    font-size="11"
+                  >${totals.size} languages / ${repos.length} repositories scanned</text>
+
+                  <text
+                    x="24"
+                    y="${height - 21}"
+                    fill="#64748b"
+                    font-size="10"
+                  >PUBLIC CODE BYTES / UPDATED ${updated} UTC</text>
+                </g>
+              </g>
+
+              <rect
+                x="1"
+                y="1"
+                width="${width - 2}"
+                height="${height - 2}"
+                rx="12"
+                fill="none"
+                stroke="#334568"
+              />
+            </svg>
+            `;
+
+            await fs.writeFile("metrics-languages.svg", svg.trim(), "utf8");
+
+            core.info(`Scanned ${repos.length} public, non-fork repositories.`);
+            core.info(`Found ${totals.size} languages.`);
+            core.info(
+              rows.map(([name, bytes]) =>
+                `${name}: ${(bytes / totalBytes * 100).toFixed(1)}%`
+              ).join("\n")
+            );
+
+      - name: Publish language card
+        if: matrix.kind == 'languages'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add metrics-languages.svg
+
+          if git diff --cached --quiet; then
+            echo "Language card is already up to date."
+            exit 0
+          fi
+
+          git commit -m "Update cyberpunk language distribution"
+          git pull --rebase
+          git push
