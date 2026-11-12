@@ -1,234 +1,331 @@
-<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<!-- ═══════════════════════ IDENTITY ═══════════════════════ -->
 
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:7C3AED,100:22D3EE&height=230&section=header&text=Rafael%20Biasiolo&fontSize=54&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=WEB%20DEVELOPER%20%2F%20CREATIVE%20BUILDER&descSize=16&descAlignY=57"
-    alt="Rafael Biasiolo — Web Developer and Creative Builder"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:080B14,45:7C3AED,75:D946EF,100:22D3EE&height=230&section=header&text=RAFAEL%20BIASIOLO&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=DEVELOPER%20%2F%20DESIGN%20%2F%20DIGITAL%20PRODUCTS&descSize=14&descAlignY=57"
+    alt="Rafael Biasiolo — Developer, Design and Digital Products"
   />
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img
-      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3200&pause=1100&color=22D3EE&center=true&vCenter=true&width=650&height=55&lines=Turning+ideas+into+digital+experiences.;Building+with+React%2C+Next.js+%26+TypeScript.;Where+clean+code+meets+creative+design."
-      alt="Animated introduction"
-    />
-  </a>
+  <code>CREATIVE MIND</code>
+  &nbsp; × &nbsp;
+  <code>DEVELOPER DNA</code>
+  &nbsp; × &nbsp;
+  <code>PRODUCT VISION</code>
 </p>
+
+<p align="center">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1400&color=22D3EE&center=true&vCenter=true&width=680&height=60&lines=%3E+Turning+ideas+into+digital+experiences.;%3E+Building+with+React%2C+Next.js+%26+TypeScript.;%3E+Code+with+purpose.+Design+with+intent."
+    width="680"
+    alt="Turning ideas into digital experiences."
+  />
+</p>
+
+<p align="center">
+  I build at the intersection of <b>development</b>, <b>design</b>, and <b>product</b>.<br />
+  From the first concept to the details that make an interface feel right.
+</p>
+
+<br />
 
 <p align="center">
   <a href="https://portfolio-rafael-biasiolo.vercel.app/">
-    <img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+    <img
+      src="https://img.shields.io/badge/01_%2F_PORTFOLIO-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"
+      alt="Explore my portfolio"
+    />
   </a>
   <a href="https://www.linkedin.com/in/rafael-biasiolo/">
-    <img src="https://img.shields.io/badge/LET'S_CONNECT-0A66C2?style=for-the-badge" alt="LinkedIn" />
+    <img
+      src="https://img.shields.io/badge/02_%2F_LINKEDIN-0891B2?style=for-the-badge"
+      alt="Connect on LinkedIn"
+    />
   </a>
   <a href="mailto:biasiolorafael@gmail.com">
-    <img src="https://img.shields.io/badge/SAY_HELLO-0D1117?style=for-the-badge&logo=gmail&logoColor=22D3EE" alt="Email" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Biasiolo&label=PROFILE+VIEWS&color=7c3aed&style=flat-square" alt="Profile view counter" />
-  <a href="https://github.com/Biasiolo?tab=followers">
-    <img src="https://img.shields.io/github/followers/Biasiolo?label=Followers&style=flat-square&color=22d3ee&labelColor=161b22" alt="GitHub followers" />
+    <img
+      src="https://img.shields.io/badge/03_%2F_CONTACT-C026D3?style=for-the-badge&logo=gmail&logoColor=white"
+      alt="Contact me by email"
+    />
   </a>
 </p>
 
 ---
 
-### 🧑‍💻 A little about me
+### `01 / PROFILE`
 
-I’m **Rafael Biasiolo**, a web developer who connects code, design, and product thinking to build useful digital experiences.
+I’m **Rafael Biasiolo**, a web developer turning creative concepts into functional, intuitive digital products.
 
-From focused landing pages to dynamic web applications, I turn creative concepts into interfaces that feel intuitive and work beautifully. My approach brings together development, usability, SEO, and marketing — considering the product from its first idea to launch.
+My work connects **front-end development, UI/UX, SEO, and marketing**. I enjoy understanding the whole experience: what a product needs to solve, how people interact with it, and how to bring it to life.
 
-I built and launched **ShoppToolz** and **BrainDex**, combining technical development, creative design, and business thinking.
+I built and launched **ShoppToolz** and **BrainDex**, combining technical development, visual design, and business thinking.
 
-> Good experiences start with understanding people — and come to life through thoughtful design and well-crafted code.
+> A thoughtful interface makes complex things feel simple.
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>⚡ Build</h3>
-      <p>Responsive interfaces, landing pages, and interactive web applications.</p>
+      <h3>⌘ Development</h3>
+      <p>Responsive websites, landing pages, and interactive applications.</p>
+      <sub>STRUCTURE / LOGIC / INTERACTION</sub>
     </td>
     <td width="33%" valign="top">
       <h3>✦ Design</h3>
-      <p>Clear visual hierarchy, intuitive interactions, and attention to detail.</p>
+      <p>Clear visual hierarchy, intuitive navigation, and attention to detail.</p>
+      <sub>INTERFACE / EXPERIENCE / IDENTITY</sub>
     </td>
     <td width="33%" valign="top">
-      <h3>↗ Launch</h3>
-      <p>A product mindset that connects usability, SEO, and marketing.</p>
+      <h3>↗ Product</h3>
+      <p>Connecting implementation with usability, discovery, and business goals.</p>
+      <sub>CONCEPT / STRATEGY / LAUNCH</sub>
     </td>
   </tr>
 </table>
 
-### 🛠️ My toolbox
+<br />
+
+### `02 / TECH STACK`
 
 <p align="center">
-  <b>Front-end & application development</b>
+  <code>APPLICATION DEVELOPMENT</code>
 </p>
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs&theme=dark&perline=7"
-    alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, and Node.js"
+    src="https://skillicons.dev/icons?i=js,ts,react,nextjs,nodejs&theme=dark&perline=5"
+    alt="JavaScript, TypeScript, React, Next.js and Node.js"
   />
 </p>
 
 <p align="center">
-  <b>Styling, design & workflow</b>
+  <code>INTERFACE ENGINEERING</code>
 </p>
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=tailwind,bootstrap,jquery,figma,git,github&theme=dark&perline=6"
-    alt="Tailwind CSS, Bootstrap, jQuery, Figma, Git, and GitHub"
+    src="https://skillicons.dev/icons?i=html,css,tailwind,bootstrap,jquery&theme=dark&perline=5"
+    alt="HTML, CSS, Tailwind CSS, Bootstrap and jQuery"
   />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/UI%2FUX-161B22?style=flat-square&logo=figma&logoColor=A78BFA" alt="UI and UX" />
-  <img src="https://img.shields.io/badge/Responsive_Design-161B22?style=flat-square&logo=css&logoColor=22D3EE" alt="Responsive design" />
-  <img src="https://img.shields.io/badge/SEO-161B22?style=flat-square&logo=google&logoColor=A78BFA" alt="SEO" />
-  <img src="https://img.shields.io/badge/Product_Thinking-161B22?style=flat-square&logo=lightning&logoColor=22D3EE" alt="Product thinking" />
+  <code>DESIGN & VERSION CONTROL</code>
 </p>
 
-### 🚀 Built & launched
+<p align="center">
+  <img
+    src="https://skillicons.dev/icons?i=figma,git,github&theme=dark&perline=3"
+    alt="Figma, Git and GitHub"
+  />
+</p>
+
+<br />
+
+### `03 / SELECTED BUILDS`
+
+Ideas taken beyond the concept stage.
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛍️ ShoppToolz</h3>
-      <p>A platform I built and launched, bringing development, design, and business thinking together.</p>
+      <p><code>PROJECT / 001</code></p>
+      <h3>ShoppToolz</h3>
+      <p>
+        A platform I built and launched, bringing together
+        web development, creative design, and business thinking.
+      </p>
+      <p><sub>DEVELOPMENT · DESIGN · PRODUCT</sub></p>
+      <br />
       <a href="https://shopptoolz.com">
-        <img src="https://img.shields.io/badge/EXPLORE_SHOPPTOOLZ-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit ShoppToolz" />
+        <img
+          src="https://img.shields.io/badge/EXPLORE_PROJECT_%E2%86%97-7C3AED?style=for-the-badge"
+          alt="Explore ShoppToolz"
+        />
       </a>
     </td>
     <td width="50%" valign="top">
-      <h3>🧠 BrainDex</h3>
-      <p>Another product brought from concept to launch through code, creative design, and a focus on usability.</p>
+      <p><code>PROJECT / 002</code></p>
+      <h3>BrainDex</h3>
+      <p>
+        A product brought from concept to launch through
+        technical development and thoughtful interface design.
+      </p>
+      <p><sub>DEVELOPMENT · DESIGN · PRODUCT</sub></p>
+      <br />
       <a href="https://braindex.fun">
-        <img src="https://img.shields.io/badge/EXPLORE_BRAINDEX-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit BrainDex" />
+        <img
+          src="https://img.shields.io/badge/EXPLORE_PROJECT_%E2%86%97-0891B2?style=for-the-badge"
+          alt="Explore BrainDex"
+        />
       </a>
     </td>
   </tr>
 </table>
 
-<p align="center">
+<p align="right">
   <a href="https://portfolio-rafael-biasiolo.vercel.app/">
-    See more of my work ↗
+    Explore the full portfolio ↗
   </a>
 </p>
 
-### 📌 Featured repositories
+<br />
 
-<p align="center">
-  <a href="https://github.com/Biasiolo/chatbot">
-    <img
-      width="48%"
-      src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=chatbot&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=22D3EE&text_color=C9D1D9"
-      alt="chatbot repository"
-    />
-  </a>
-  <a href="https://github.com/Biasiolo/dev-tips">
-    <img
-      width="48%"
-      src="https://github-readme-stats.vercel.app/api/pin/?username=Biasiolo&repo=dev-tips&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=22D3EE&text_color=C9D1D9"
-      alt="dev-tips repository"
-    />
+### `04 / SOURCE CODE`
+
+| Repository | Destination |
+| :--- | :--- |
+| **💬 YooChat!** | [github.com/Biasiolo/chatbot ↗](https://github.com/Biasiolo/chatbot) |
+| **💡 Dev Tips** | [github.com/Biasiolo/dev-tips ↗](https://github.com/Biasiolo/dev-tips) |
+
+<p align="right">
+  <a href="https://github.com/Biasiolo?tab=repositories">
+    Browse all repositories ↗
   </a>
 </p>
-
-### 📊 Code & consistency
-
-<p align="center">
-  <img
-    width="48%"
-    src="https://github-readme-stats.vercel.app/api?username=Biasiolo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=22D3EE&text_color=C9D1D9&rank_icon=github"
-    alt="Rafael's GitHub statistics"
-  />
-  <img
-    width="48%"
-    src="https://streak-stats.demolab.com?user=Biasiolo&theme=tokyonight&hide_border=true&background=0D1117&ring=A78BFA&fire=22D3EE&currStreakLabel=A78BFA&sideLabels=C9D1D9&dates=8B949E"
-    alt="GitHub contribution streak"
-  />
-</p>
-
-<p align="center">
-  <img
-    width="40%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biasiolo&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9"
-    alt="Most used languages across public repositories"
-  />
-</p>
-
-<p align="center">
-  <sub>Language percentages reflect repository composition, not proficiency.</sub>
-</p>
-
-### 📈 Activity timeline
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Biasiolo&bg_color=0D1117&color=A78BFA&line=22D3EE&point=FFFFFF&area=true&area_color=7C3AED&hide_border=true&custom_title=Building%20one%20commit%20at%20a%20time"
-    alt="GitHub contribution activity graph"
-  />
-</p>
-
-<!--
-OPTIONAL: Uncomment after installing and running the snake workflow.
-
-### 🐍 Every contribution counts
-
-<p align="center">
-  <img
-    width="100%"
-    src="https://raw.githubusercontent.com/Biasiolo/Biasiolo/output/github-contribution-grid-snake-dark.svg"
-    alt="Animated snake moving through my GitHub contributions"
-  />
-</p>
--->
-
-<details>
-  <summary><b>💡 How I approach a project</b></summary>
-  <br />
-
-  1. **Understand the goal** — what the product needs to solve and who it serves.
-  2. **Shape the experience** — organize content, interactions, and visual direction.
-  3. **Build with care** — turn the concept into a responsive, functional application.
-  4. **Connect the details** — consider usability, SEO, and marketing.
-  5. **Launch and learn** — improve the experience through iteration.
-
-</details>
 
 ---
 
-### 🤝 Let’s build something meaningful
+<!--
+Dashboard assets are generated by:
+.github/workflows/profile-metrics.yml
+-->
 
-Have a project in mind or want to exchange ideas? Let’s talk.
+### `05 / DEVELOPER TELEMETRY`
+
+<p>
+  <code>DATA SOURCE / GITHUB API</code>
+  &nbsp;
+  <code>RENDER / SVG</code>
+</p>
+
+<p>
+  Repositories, languages, and contributions — a look behind the builds.
+</p>
+
+<p>
+  <a href="https://github.com/Biasiolo/Biasiolo/actions/workflows/profile-metrics.yml">
+    <img
+      src="https://github.com/Biasiolo/Biasiolo/actions/workflows/profile-metrics.yml/badge.svg"
+      alt="Profile metrics workflow status"
+    />
+  </a>
+</p>
+
+<br />
+
+<h4 align="center">⌘ &nbsp; ACCOUNT OVERVIEW</h4>
 
 <p align="center">
-  <a href="mailto:biasiolorafael@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL_ME-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Rafael" />
+  <sub>PROFILE / REPOSITORIES / CONTRIBUTIONS</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Biasiolo">
+    <img
+      src="./metrics-stats.svg"
+      width="620"
+      alt="GitHub profile statistics, repository totals and contribution activity"
+    />
   </a>
-  <a href="https://www.linkedin.com/in/rafael-biasiolo/">
-    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge" alt="Connect on LinkedIn" />
-  </a>
-  <a href="https://portfolio-rafael-biasiolo.vercel.app/">
-    <img src="https://img.shields.io/badge/PORTFOLIO-161B22?style=for-the-badge&logo=vercel&logoColor=white" alt="Explore portfolio" />
+</p>
+
+<br />
+
+<h4 align="center">◈ &nbsp; LANGUAGE DISTRIBUTION</h4>
+
+<p align="center">
+  <sub>THE CODE BEHIND THE PROJECTS</sub>
+</p>
+
+<p align="center">
+  <img
+    src="./metrics-languages.svg"
+    width="620"
+    alt="Most used programming languages in my public repositories"
+  />
+</p>
+
+<p align="center">
+  <sub>
+    Based on code volume in public repositories.<br />
+    Language distribution represents repository composition, not proficiency.
+  </sub>
+</p>
+
+<br />
+
+<h4 align="center">↯ &nbsp; CONTRIBUTION SIGNAL</h4>
+
+<p align="center">
+  <sub>ANNUAL CONTRIBUTIONS / RECENT PUBLIC EVENTS</sub>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Biasiolo?tab=overview">
+    <img
+      src="./metrics-activity.svg"
+      width="620"
+      alt="Isometric contribution calendar and recent public GitHub activity"
+    />
   </a>
 </p>
 
 <p align="center">
-  <sub>Crafted with curiosity. Built with intention.</sub>
+  <sub>
+    Generated with GitHub Actions · Images stored in this repository
+  </sub>
+</p>
+
+---
+
+### `06 / PROCESS`
+
+<details>
+  <summary><b>Open the build sequence ↴</b></summary>
+
+  <br />
+
+  **`01 → UNDERSTAND`**  
+  Identify the people, the problem, and the goal.
+
+  **`02 → DESIGN`**  
+  Shape the structure, visual direction, and interactions.
+
+  **`03 → DEVELOP`**  
+  Build a responsive, functional experience with attention to detail.
+
+  **`04 → CONNECT`**  
+  Bring usability, SEO, and marketing into the implementation.
+
+  **`05 → REFINE`**  
+  Learn from the experience and keep improving the product.
+
+</details>
+
+<br />
+
+### `07 / OPEN A CHANNEL`
+
+Have a project in mind? Let’s turn it into something people can use.
+
+**[biasiolorafael@gmail.com ↗](mailto:biasiolorafael@gmail.com)**
+
+[Portfolio](https://portfolio-rafael-biasiolo.vercel.app/)
+&nbsp; / &nbsp;
+[LinkedIn](https://www.linkedin.com/in/rafael-biasiolo/)
+&nbsp; / &nbsp;
+[GitHub](https://github.com/Biasiolo)
+
+<br />
+
+<p align="center">
+  <code>END OF TRANSMISSION / KEEP BUILDING</code>
 </p>
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:7C3AED,100:0D1117&height=110&section=footer"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,40:7C3AED,75:D946EF,100:080B14&height=110&section=footer"
   alt=""
 />
